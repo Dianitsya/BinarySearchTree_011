@@ -27,11 +27,13 @@ namespace BinarySearchTree_011
     class BinaryTree
     {
         public Node ROOT;
-        
-    internal class Program
-    {
-        static void Main(string[] args)
+        public BinaryTree()
         {
+            ROOT = null; //initializing ROOT to null
+        }
+        
+                }
+            }
         }
     }
 }
