@@ -154,10 +154,10 @@ namespace BinarySearchTree_011
                         }
                         break;
                     case '5':
-                        {
+                        return;
+                    default:
                             Console.WriteLine("Invalid option");
                             break;
-                        }
                 }
             }
         }
